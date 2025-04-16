@@ -5,7 +5,7 @@ sudo systemctl start mysql ( if service not active)
 mysql --version
 sudo mysql_secure_installation
 mysql -u root
-ALTER USER 'root'@'localhost' IDENTIFIED BY 'ut&+~';FLUSH PRIVILEGES;
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'utZH83&+~';FLUSH PRIVILEGES;
 mysql -u root -p (Log in with mysql password)
 exit
 
