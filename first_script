@@ -8,9 +8,7 @@ mysql -u root
 ALTER USER 'root'@'localhost' IDENTIFIED BY 'utZH83&+~';FLUSH PRIVILEGES;
 mysql -u root -p (Log in with mysql password)
 exit
-
+mysql -h hostname -P 3306 -u username -p
 data file var
 etc configuration
-ensure service stop 
-ensure delete all files
 sudo apt remove mysql*
